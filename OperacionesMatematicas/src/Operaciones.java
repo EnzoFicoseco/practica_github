@@ -26,10 +26,13 @@ public class Operaciones {
         System.out.printf("La resta entre %d y %d es %d",a,b,resultado);
     }
     public static void multiplicacion(int a, int b){
-    
+        int resultado;
+        resultado=a*b;
+        System.out.println(a+"*"+b+"="+resultado);
     }
     public static void division(int a, int b){
-    
+    int div = a / b;
+        System.out.println("El producto de la división es: " + div);
     }
     
 }
