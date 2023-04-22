@@ -27,7 +27,7 @@ public class Operaciones {
     
     }
     public static void division(int a, int b){
-    
+    int div = a / b;
     }
     
 }
