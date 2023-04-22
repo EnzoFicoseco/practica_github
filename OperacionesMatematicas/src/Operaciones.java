@@ -21,7 +21,9 @@ public class Operaciones {
     
     }
     public static void resta(int a, int b){
-    
+        int resultado;
+        resultado = a - b;
+        System.out.printf("La resta entre %d y %d es %d",a,b,resultado);
     }
     public static void multiplicacion(int a, int b){
     
