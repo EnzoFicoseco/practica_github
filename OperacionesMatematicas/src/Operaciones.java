@@ -24,7 +24,9 @@ public class Operaciones {
     
     }
     public static void multiplicacion(int a, int b){
-    
+        int resultado;
+        resultado=a*b;
+        System.out.println(a+"*"+b+"="+resultado);
     }
     public static void division(int a, int b){
     
